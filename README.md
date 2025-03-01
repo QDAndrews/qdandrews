@@ -111,8 +111,9 @@
 ###
 
 <div align="center">
-  <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=2&username=quinn1.andrews&theme=dark" alt="Layout with last medium posts"  />
+  <img src="https://github-read-medium-git-main.pahlevikun.vercel.app/latest?limit=1&username=@quinn1.andrews&theme=dark" alt="Latest Medium post from Quinn1 Andrews" />
 </div>
+
 
 ###
 
