@@ -98,6 +98,50 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=qdandrews&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Medium Post</title>
+</head>
+<body>
+    <div align="center">
+        <h2>Latest Medium Post</h2>
+        <div id="latest-post"></div>
+    </div>
+
+    <script>
+        async function fetchMediumPost() {
+            const rssUrl = "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@quinn1.andrews";
+
+            try {
+                const response = await fetch(rssUrl);
+                const data = await response.json();
+
+                if (data.items && data.items.length > 0) {
+                    const post = data.items[0]; // Get the latest post
+                    document.getElementById("latest-post").innerHTML = `
+                        <h3><a href="${post.link}" target="_blank">${post.title}</a></h3>
+                        <p>${post.pubDate}</p>
+                        <p>${post.description.substring(0, 200)}...</p>
+                        <a href="${post.link}" target="_blank">Read More</a>
+                    `;
+                } else {
+                    document.getElementById("latest-post").innerHTML = "<p>No recent posts found.</p>";
+                }
+            } catch (error) {
+                console.error("Error fetching Medium RSS feed:", error);
+                document.getElementById("latest-post").innerHTML = "<p>Failed to load Medium posts.</p>";
+            }
+        }
+
+        fetchMediumPost();
+    </script>
+</body>
+</html>
+
 ###
 
 <div align="center">
