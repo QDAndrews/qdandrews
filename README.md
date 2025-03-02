@@ -89,6 +89,27 @@
 
 ###
 
+<h2>👨‍💻 CyberSecurity Projects:</h2>
+
+- <b>Identity Access Management & Priviledge Access Management</b>
+  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+- <b>Cybersecurity Tools (CyberArk|Okta|Sailpoint)</b>
+  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
+- <b>Azure Active Directory</b>
+  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
+- <b>CyberSecurity Tooling: Splunk-Nexus-</b>
+  - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
+
+- <b>Python</b>
+  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
+
+<h2>📺 Popular YouTube Videos</h2>
+
+- [AWS Textract Project](https://www.youtube.com/watch?v=a83ASGn_V_s)
+
+
+###
+
 <h3 align="left">🔥   My Stats :</h3>
 
 ###
@@ -123,3 +144,4 @@
 </div>
 
 ###
+
